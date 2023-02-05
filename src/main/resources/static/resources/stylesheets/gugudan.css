@@ -12,7 +12,7 @@ html{
 
 body{
 
-    background-image: url("/resources/images/num6.jpg");
+    background-image: url("https://gugudan.alllim.dev/resources/images/num6.JPG");
     background-size: cover;
 
     background-repeat:repeat;
@@ -49,7 +49,7 @@ body>header>.game-over {
 display: none;
     position: fixed;
 
-    background-image: url("/resources/images/game_over.PNG");
+    background-image: url("https://gugudan.alllim.dev/resources/images/game_over.PNG");
     background-size: 100%;
     z-index: 100;
 
@@ -119,7 +119,7 @@ body>header>#cover {
 
     z-index: 200;
     color: white;
-    background-image: url("/resources/images/cover.png");
+    background-image: url("https://gugudan.alllim.dev/resources/images/cover.png");
     filter: brightness(110%);
     background-size: 50%;
     background-repeat: no-repeat;
@@ -201,7 +201,7 @@ body>main>div:hover:not(.d55){background-color: white;
 
 
 body>main>#d55{
-    background-image: url("/resources/images/pichu.jpg");
+    background-image: url("https://gugudan.alllim.dev/resources/images/pichu.jpg");
     background-size: 100%;
 
 }
