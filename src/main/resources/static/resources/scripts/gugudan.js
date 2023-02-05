@@ -303,7 +303,7 @@ setInterval(function (){//문제를 맞추거나 틀렸을 때 문제를 바꾼�
 window.document.getElementById('hard').addEventListener("click",()=>{
     buttonClickSound.play();
     document.getElementById("cover").style.display= "none";
-     x=30;
+     x=5;
      backgroundSound.play();
 });
 window.document.getElementById('easy').addEventListener("click",()=>{

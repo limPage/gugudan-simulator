@@ -49,8 +49,7 @@ body>header>.game-over {
 display: none;
     position: fixed;
 
-    background-image: url("https://gugudan.alllim.dev/resources/images/game_over.PNG");
-    background-size: 100%;
+
     z-index: 100;
 
     width: 100%;
@@ -58,7 +57,7 @@ display: none;
 
     top:0;
     left: 0;
-    background-repeat: repeat;
+
 
 }
 body>header>#fail,
