@@ -5,7 +5,7 @@
     <title>: : gugudan : :</title>
 
     <script th:src="@{/resources/scripts/gugudan.js}" defer></script>
-    <link rel="stylesheet" href="/resources/stylesheets/gugudan.css">
+    <link rel="stylesheet" th:href="@{/resources/stylesheets/gugudan.css?ver=1}">
 
 
 </head>
@@ -34,9 +34,9 @@
 
             </div>
         </div>
-        <img class="game-over" id="img" >
-        <img id="fail" src="/resources/images/fail.jpg">
-        <img id="clear" src="/resources/images/clear.jpg">
+        <div class="game-over" id="img">  </div>
+        <img id="fail" src="/resources/images/fail.jpg" alt="">
+        <img id="clear" src="/resources/images/clear.jpg" alt="">
     </header>
 
     <main>
