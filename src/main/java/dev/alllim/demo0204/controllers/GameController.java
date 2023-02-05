@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller(value = "/")
-public class SoundController {
+public class GameController {
 
     @GetMapping(value = "/",produces = MediaType.TEXT_HTML_VALUE )
     public ModelAndView getIndex(){
